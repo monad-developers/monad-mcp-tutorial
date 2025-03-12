@@ -137,7 +137,7 @@ The server is now ready to use!
 
 1. Open "Claude Desktop"
 
-![claude desktop](/static/2.png)
+![claude desktop](/static/1.png)
 
 2. Open Settings
 
