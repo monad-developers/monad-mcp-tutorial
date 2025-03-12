@@ -1,0 +1,26 @@
+{
+  "name": "monad-mcp-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "monad-mcp-tutorial": "./bin/monad-mcp-tutorial.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "axios": "^1.8.2",
+    "typescript": "^5.8.2",
+    "viem": "^2.23.10",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10"
+  }
+}
