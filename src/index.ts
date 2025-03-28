@@ -10,29 +10,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { createPublicClient, defineChain, formatUnits, http } from "viem";
-
-// Define the Monad testnet chain configuration
-export const monadTestnet = defineChain({
-    id: 10_143,
-    name: "Monad Testnet",
-    nativeCurrency: {
-        name: "Testnet MON Token",
-        symbol: "MON",
-        decimals: 18,
-    },
-    rpcUrls: {
-        default: {
-            http: ["https://testnet-rpc.monad.xyz"],
-        },
-    },
-    blockExplorers: {
-        default: {
-            name: "Monad Testnet explorer",
-            url: "https://testnet.monadexplorer.com",
-        },
-    },
-    testnet: true,
-});
+import { monadTestnet } from "viem/chains";
 
 // Create a public client to interact with the Monad testnet
 const publicClient = createPublicClient({
