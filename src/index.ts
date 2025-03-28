@@ -20,7 +20,7 @@ const publicClient = createPublicClient({
 
 // Initialize the MCP server with a name, version, and capabilities
 const server = new McpServer({
-    name: "monad-testnet",
+    name: "monad-mcp-tutorial",
     version: "0.0.1",
 });
 
