@@ -193,9 +193,6 @@ Cursor > Settings > Cursor Settings > MCP
     "monad-mcp-tutorial": {
       "command": "node",
       "args": ["/Users/harpalsinhjadeja/code/monad-mcp-tutorial/build/index.js"],
-      "env": {
-        "API_KEY": "value"
-      }
     }
   }
 }
