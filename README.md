@@ -169,10 +169,6 @@ Claude > Settings > Developer
 
 ### Using the MCP server
 
-You should now be able to see the tools in Claude!
-
-![tools](/static/tools.gif)
-
 Here's the final result
 
 ![final result](/static/final_result.gif)
