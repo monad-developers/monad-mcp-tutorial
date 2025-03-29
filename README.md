@@ -1,6 +1,6 @@
 # Monad MCP Tutorial
 
-This project demonstrates how to create a MCP server that interacts with the Monad testnet. The server provides a tool for checking MON token balances on the Monad testnet.
+This project demonstrates how to create a MCP server that interacts with the Monad testnet. The MCP server provides a tool for checking MON token balances on the Monad testnet.
 
 ## What is MCP?
 
@@ -119,7 +119,7 @@ async function main() {
     const transport = new StdioServerTransport();
     
     // Connect the server to the transport
-     await server.connect(transport);
+    await server.connect(transport);
     
     console.log("Monad testnet MCP Server running on stdio");
 }
