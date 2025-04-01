@@ -9,7 +9,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
-import { createPublicClient, defineChain, formatUnits, http } from "viem";
+import { createPublicClient, formatUnits, http } from "viem";
 import { monadTestnet } from "viem/chains";
 
 // Create a public client to interact with the Monad testnet
