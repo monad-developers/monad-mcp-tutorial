@@ -19,10 +19,14 @@ const publicClient = createPublicClient({
 });
 
 // Initialize the MCP server with a name, version, and capabilities
-
+const server = new McpServer({
+  name: "Monad MCP Tutorial",
+  version: "0.1.0",
+  tools: {}, // add tools here
+});
 
 // Define a tool that gets the MON balance for a given address
-
+// (implementation omitted)
 
 /**
  * Main function to start the MCP server
@@ -30,11 +34,11 @@ const publicClient = createPublicClient({
  */
 async function main() {
     // Create a transport layer using standard input/output
-    
+    const transport = new StdioServerTransport();
     
     // Connect the server to the transport
-    
-    
+    await server.connect(transport);
+
     console.error("Monad testnet MCP Server running on stdio");
 }
 
