@@ -121,7 +121,7 @@ async function main() {
     // Connect the server to the transport
      await server.connect(transport);
     
-    console.log("Monad testnet MCP Server running on stdio");
+    console.error("Monad testnet MCP Server running on stdio");
 }
 ```
 
